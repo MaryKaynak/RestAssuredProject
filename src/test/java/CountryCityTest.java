@@ -49,8 +49,7 @@ public class CountryCityTest extends BaseTest {
                 .statusCode( 200 )
         ; }
 
-
-    @Test
+        @Test
     public void createCountry() {
         Country country = new Country();
         country.setName( name );
