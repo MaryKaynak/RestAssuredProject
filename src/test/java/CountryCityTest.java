@@ -26,6 +26,7 @@ public class CountryCityTest extends BaseTest {
     }
 
     @Test
+
     public void getCountries() {
         given()
                 .cookies( cookies )
