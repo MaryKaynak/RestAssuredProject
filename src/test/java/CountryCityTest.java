@@ -35,8 +35,7 @@ public class CountryCityTest extends BaseTest {
                 .log().body()
                 .get( "/school-service/api/countries" )
                 .then()
-                .statusCode( 200 )
-        ;
+                .statusCode( 200 );
     }
     @Test
     public void getCity() {
