@@ -47,8 +47,7 @@ public class CountryCityTest extends BaseTest {
                 .then()
                 .log().body()
                 .statusCode( 200 )
-        ;
-    }
+        ; }
 
 
     @Test
